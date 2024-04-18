@@ -1,0 +1,25 @@
+{
+	"name": "tokyoOlympicDB",
+	"properties": {
+		"Name": "tokyoOlympicDB",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://tokyo-olympic-data@tokyoolympicdatavicky.dfs.core.windows.net/tokyoOlympicDB",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "tokyo-olympic-vic-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 3,
+		"ObjectId": "27d77754-62e9-45e3-a258-c61f946ab8e3"
+	},
+	"type": "DATABASE"
+}
