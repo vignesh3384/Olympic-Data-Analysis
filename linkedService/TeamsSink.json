@@ -1,5 +1,5 @@
 {
-	"name": "TeamsHTTP",
+	"name": "TeamsSink",
 	"properties": {
 		"annotations": [],
 		"type": "HttpServer",
@@ -9,4 +9,4 @@
 			"authenticationType": "Anonymous"
 		}
 	}
-}
+} 
