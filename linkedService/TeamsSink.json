@@ -1,5 +1,5 @@
 {
-	"name": "TeamsSink",
+	"name": "TeamsHTTP",
 	"properties": {
 		"annotations": [],
 		"type": "HttpServer",
